@@ -15,13 +15,13 @@ console.log(typeof exampleName);     // typeof tells you the type
 
 // TODO: Make 3 variables for YOUR truck: a name, a number, and a true/false.
 // TODO: console.log them, and log the typeof each one.
-const exampleName = "The Vegan Master";
-const exampleYears = 5;
-const exampleIsOpen = true;
+const truckName = "The Vegan Master";
+const numberofYears = 5;
+const openForBusiness = true;
 
-console.log(exampleName);
-console.log(exampleYears);
-console.log(exampleYears);
+console.log(truckName);
+console.log(numberofYears);
+console.log(openForBusiness);
 
 // ---------- Step 2: An array (a list) ----------
 // Example:
