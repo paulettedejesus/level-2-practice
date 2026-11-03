@@ -15,13 +15,12 @@ console.log(typeof exampleName);     // typeof tells you the type
 
 // TODO: Make 3 variables for YOUR truck: a name, a number, and a true/false.
 // TODO: console.log them, and log the typeof each one.
-const truckName = "The Vegan Master";
+const veganTruckName = "The Vegan Master";
 const numberofYears = 5;
 const openForBusiness = true;
 
-console.log(truckName);
-console.log(numberofYears);
-console.log(openForBusiness);
+console.log(veganTruckName, numberofYears, openForBusiness);
+console.log(typeof veganTruckName, typeof numberofYears, typeof openForBusiness);
 
 // ---------- Step 2: An array (a list) ----------
 // Example:
@@ -30,7 +29,12 @@ console.log(exampleMenu[0]);         // first item: index 0
 console.log(exampleMenu.length);     // how many items
 
 // TODO: Make an array of 3 or more things YOUR truck sells.
+const mostLovedMenu = ["Mushroom Lentil Fajitas", "Tomato and Basil Soup", "Zucchini Pasta", "Mediterranean Grilled Avocado Stuffed with Chickpeas and Tahini", "BBQ Hawaiian Tofu Bowl"];
+
 // TODO: Log the first item, the last item, and how many items there are.
+console.log(mostLovedMenu[0]);
+console.log(mostLovedMenu[4]);
+console.log(mostLovedMenu.length);
 
 
 
@@ -41,7 +45,10 @@ console.log(exampleItem.name);       // dot notation
 console.log(exampleItem["price"]);   // bracket notation
 
 // TODO: Make an object for one of YOUR menu items (name, price, spicy).
+const firstItem = {name: "Mushroom Lentil Fajitas", price: 15.5, spicy: false};
 // TODO: Log one property with dot notation and one with bracket notation.
+console.log(firstItem.name);
+console.log(firstItem["price"]);
 
 
 // ---------- Step 4: A function ----------
@@ -49,10 +56,14 @@ console.log(exampleItem["price"]);   // bracket notation
 function addTip(price, tip) {
   return price + tip;
 }
-console.log(addTip(10, 2));          // 12
+console.log(addTip(10, 2))          // 12
 
 // TODO: Write a function orderTotal(price, quantity) that RETURNS price * quantity.
+function orderTotal(price,quantity){
+  return price * quantity;
+}
 // TODO: Before you run it, guess what orderTotal(4.5, 3) gives. Then log it.
+console.log(orderTotal(15.5, 3));
 
 
 // ---------- Extra practice (if you finish early) ----------
