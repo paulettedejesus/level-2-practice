@@ -15,7 +15,13 @@ console.log(typeof exampleName);     // typeof tells you the type
 
 // TODO: Make 3 variables for YOUR truck: a name, a number, and a true/false.
 // TODO: console.log them, and log the typeof each one.
+const exampleName = "The Vegan Master";
+const exampleYears = 5;
+const exampleIsOpen = true;
 
+console.log(exampleName);
+console.log(exampleYears);
+console.log(exampleYears);
 
 // ---------- Step 2: An array (a list) ----------
 // Example:
@@ -25,6 +31,7 @@ console.log(exampleMenu.length);     // how many items
 
 // TODO: Make an array of 3 or more things YOUR truck sells.
 // TODO: Log the first item, the last item, and how many items there are.
+
 
 
 // ---------- Step 3: An object (one thing with details) ----------
