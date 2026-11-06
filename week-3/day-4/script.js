@@ -8,11 +8,16 @@
 
 // First: replace this menu with YOUR truck's menu (keep the same shape).
 const menu = [
-  { name: "Mushroom Lentil Fajitas", price: 15.5 },
-  { name: "Tomato and Basil Soup", price: 8 },
+  { name: "Mushroom Lentil Fajitas", price: 15.50 },
+  { name: "Tomato and Basil Soup", price: 3.00 },
   { name: "Zucchini Pasta", price: 9.50 },
   { name: "Mediterranean Grilled Avocado Stuffed with Chick Peas And Tahini", price: 13 },
-  { name: "BBQ Hawaiian Tofu Bowl", price: 10}
+  { name: "BBQ Hawaiian Tofu Bowl", price: 10.00 },
+  { name: "Roast Stuffed Pumpkin", price: 5.00 },
+  { name: "General Tso's Tofu", price: 4.50 },
+  { name: "Roasted Garlic and Portobello Mushroom Vegan Pizza", price: 5.0 },
+  { name: "Southwest Spring Rolls", price: 5.00 },
+  { name: "Quinoa Fried Rice", price: 11.00 }
 ];
 
 
@@ -84,8 +89,8 @@ for (let i = 0; i < menu.length; i++) {
 
 // YOUR TURN: log only the items that cost MORE than $5, like "Fancy: Burrito".
 // Change: < → >   and   "Cheap:" → "Fancy:"
-for (let i = 0; i > menu.length; i++) {
+for (let i = 0; i < menu.length; i++) {
   if (menu[i].price > 5) {
-    console.log("Fancy:", menu[i].name);
+    console.log("Fancy:",  menu[i].name);
   }
 }
