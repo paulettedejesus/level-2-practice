@@ -8,10 +8,11 @@
 
 // First: replace this menu with YOUR truck's menu (keep the same shape).
 const menu = [
-  { name: "Taco", price: 4.5 },
-  { name: "Burrito", price: 9 },
-  { name: "Nachos", price: 6.25 },
-  { name: "Churro", price: 3 },
+  { name: "Mushroom Lentil Fajitas", price: 15.5 },
+  { name: "Tomato and Basil Soup", price: 8 },
+  { name: "Zucchini Pasta", price: 9.50 },
+  { name: "Mediterranean Grilled Avocado Stuffed with Chick Peas And Tahini", price: 13 },
+  { name: "BBQ Hawaiian Tofu Bowl", price: 10}
 ];
 
 
@@ -24,6 +25,8 @@ for (let i = 0; i < menu.length; i++) {
 
 // YOUR TURN: log every item's PRICE.
 // Change one thing: .name → .price
+for (let i = 0; i < menu.length; i++)
+  console.log(menu[i].price);
 
 
 // ---------- Step 2: A sentence for each item ----------
@@ -36,6 +39,9 @@ for (let i = 0; i < menu.length; i++) {
 // Change one thing: " is on the menu" → " costs $" + menu[i].price
 
 
+for(let i = 0; i< menu.length; i++) {
+  console.log(menu[i].name + " cost $" + menu[i].price);
+}
 // ---------- Step 3: Put the menu on the page ----------
 // EXAMPLE: puts every NAME on the page, one per line. (Same as Menu Card.)
 const menuText = document.querySelector("#menu-text");
