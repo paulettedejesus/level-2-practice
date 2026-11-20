@@ -13,7 +13,7 @@ const longitude = -80.84313;
 // The same address you sent in your API tool, built from the pieces.
 const url =
   "https://api.open-meteo.com/v1/forecast?latitude=" + latitude +
-  "&longitude=" + longitude + "&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit&";
+  "&longitude=" + longitude + "&current=temperature_2m,wind_speed_10m&temperature_unit=fahrenheit";
 
 
 // ---------- Step 1: Send the request ----------
